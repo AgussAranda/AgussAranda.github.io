@@ -1,0 +1,74 @@
+
+
+* {
+    box-sizing: border-box; /* Con esto al decirle width: 100%, le digo que incluya el padding dentro de ese 100%, es decir no lo suma*/
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.nav-bar {
+    position: fixed; /*Con esto dejamos fija barra de navegacion*/
+    width: 100%;
+    background-color: #0a241b;
+    height: 75px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.nav-center {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+
+.nav-center ul{
+    display: flex; /* Para acomodarlos uno al lado del otro*/
+    gap: 70px; /* Espacio entre elementos*/
+    list-style: none; /* Eliminamos los puntos de la lista*/ 
+    align-items: center;
+}
+
+.nav-center li a {
+    text-decoration: none;
+    color: white;
+ }
+
+
+
+.logo {
+    width: 75px;
+    height: 75px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+}
+
+.presentation {
+    background: linear-gradient(to bottom, #144030, #1b6146, #32976c);
+    height: 100vh;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.presentation-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Opcional: fondo semitransparente para mejor legibilidad */
+    padding: 20px 40px;
+    border-radius: 10px;
+  }
+
+section {
+    height: 100vh;
+    scroll-margin-top: 75px; /* Con esto, hacemos que al linkear en la navbar, nos deje bien la pantalla*/
+}
+
