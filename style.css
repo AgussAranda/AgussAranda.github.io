@@ -1,5 +1,4 @@
 
-
 * {
     box-sizing: border-box; /* Con esto al decirle width: 100%, le digo que incluya el padding dentro de ese 100%, es decir no lo suma*/
     margin: 0;
@@ -71,4 +70,3 @@ section {
     height: 100vh;
     scroll-margin-top: 75px; /* Con esto, hacemos que al linkear en la navbar, nos deje bien la pantalla*/
 }
-
